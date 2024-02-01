@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+.sessao__sobre{
+    background:#16181d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    padding: 2rem;
+    height: 75vh;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: auto;
+    border-bottom: 1px solid grey;
+
+}
+.imagemenome__sobre{
+    
+    display: flex;
+    flex-wrap:wrap;
+    padding: 1rem;
+    width: 100%;
+    
+}
+.sessao__sobre__fotografia{
+    border-radius: 100%;
+    border: 0.6rem solid white;
+    
+  
+    
+}
+.sessao__sobre__titulo{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    margin: 1rem auto auto auto;
+    color: white;
+
+    
+}
+
+.conteudo__sobre{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5rem;
+    
+}
+.conteudo__sobre a{
+    color: #60dafb;
+}
+.sessao__titulo{
+    font-size: 4rem;
+    color: #3acdfb;
+}
+.sessao__sobre__texto{
+    font-size: 1.5rem;
+    color: white;
+}

@@ -1,0 +1,127 @@
+
+@media screen and (max-width:1200px){
+    body{
+        overflow-x: hidden;
+        background: black;
+    }
+    p{
+        text-align: justify;
+    }
+    h2{
+        font-size: 2.2rem;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+   
+    .navButton{
+        background: red;
+        border-radius: 10px;
+        padding: 2rem;
+        top: 1%;
+        background: #0062b5;
+        cursor: pointer;
+       
+    }
+    .navButton i{
+        color: skyblue;
+       
+        
+    }
+    
+    .cabecalho{
+        height: auto;
+        z-index: 9;
+        width: 0;
+        transition: all 0.5s;
+        padding: 0rem;
+        margin: 0 ;
+    }
+    
+    #topo{
+       
+    }
+    .menu__item{
+        position: relative;
+        top: 25%;
+        width: 100%;
+   
+      
+    }
+    .ancora__item{
+        text-align: center;
+        text-decoration: none;
+        padding: 1rem;
+        margin-left: 2rem;
+        display: block;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .closebtn{
+        position: absolute;
+        top: 1px;
+        margin-left: 90%;
+        font-size: 3rem;
+    }
+    .sessao__sobre{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    .sessao__sobre p{
+        margin-top: 2rem;
+    }
+    
+    .sessao__sobre ,.sessao__educacao, .sessao__habilidades,
+    .sessao__projetos, .sessao__contato{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .item__educacao{
+        padding: 1rem;
+    }
+    .sessao__habilidades #topo{
+        display: none;
+    }
+    .sessao__habilidades{
+        height: auto;
+        
+    }
+    .menu__habilidades{
+        display: flex;
+        flex-direction: column;
+       
+        margin-bottom: 2rem;
+    }
+    .item__habilidades{
+        padding: 1rem;
+    }
+    .sessao__projetos p{
+        text-align: justify;
+    }
+    .div__projetos{
+        flex-direction: column;
+        margin-top: 3rem;
+        
+        
+    }
+    .div__projetos img{
+        width: 60%;
+    }
+    .sessao__contato p{
+        text-align: center;
+    }
+    
+    
+}
+
+
+
+
+@media screen and (min-width:1200px){
+    .navButton, .closebtn{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.sessao__habilidades{
+    background: #1d1f26;
+    
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-bottom: 1px solid grey;
+}
+.sessao__habilidades p {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.sessao__habilidades h1{
+    font-size: 2.5rem;
+    padding: 2% 0 0 3%;
+    
+}
+.item__habilidades__titulo{
+    font-size: 1.5rem;
+    color: #3acdfb;
+    margin-top: 2%;
+}
+.menu__habilidades{
+    padding: 0 0 0 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% 50% 50%;
+    grid-template-areas: 
+        "habi1"
+        "habi2"
+        "habi3"
+        "habi4"
+}
+.menu__habilidades:nth-child(1){
+    grid-area: habi1;
+}
+.menu__habilidades:nth-child(2){
+    grid-area: habi2;
+}
+.menu__habilidades:nth-child(3){
+    grid-area: habi3;
+}
+.menu__habilidades:nth-child(4){
+    grid-area: habi4;
+}

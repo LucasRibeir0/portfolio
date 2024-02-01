@@ -1,0 +1,22 @@
+.sessao__educacao{
+    background: #1d1f26;
+    height: auto;
+    padding: 1%;
+    padding-left: 3%;
+    border-bottom: 1px solid grey;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+.sessao__educacao p {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.sessao__educacao h1{
+    margin-bottom: 2%;
+
+}
+.item__educacao__titulo{
+    color: #3acdfb;
+    
+}

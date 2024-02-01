@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+   
+}
+p{
+    text-align: justify;
+}
+body{
+    background: #cdcdcd;
+    font-family: 'Noto Sans', sans-serif;
+  
+    
+}
+body a{
+    color: #3acdfb;
+}
+#topo{
+    position: relative;
+    font-size: 2rem;
+    margin-left: 90%;
+}
+.cabecalho{
+    border-bottom: 1px solid grey;
+    background: url(fundo2.gif);
+    background-repeat: repeat-x,repeat-y;
+    opacity: inherit;
+    padding: 2rem;
+    margin: -10px 3rem 0 3rem;
+    height: auto;
+}
+
+.menu__item{
+    padding: 0.6rem;
+}
+
+.ancora__item#ativo{
+    color: #3acdfb;
+}
+
+.ancora__item{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;    
+    
+}
+.ancora__item:hover{
+    transition: 1.2s;
+    color: #3acdfb;
+}
+

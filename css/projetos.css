@@ -1,0 +1,42 @@
+.sessao__projetos{
+    background:  #1d1f26;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: auto;
+    border-bottom: 1px solid grey;
+   
+}
+.sessao__projetos h1{
+    margin-left: 2%;
+}
+.sessao__projetos h2{
+    color: #3acdfb;
+}
+.sessao__projetos p{
+    color: white;
+    font-size: 1.5rem;
+    width: 75%;
+}
+.div__projetos{
+    padding: 2%;
+    margin-left: 2.5%;
+}
+
+.div__projetos{
+    display: flex;
+    flex-direction: column;
+}
+
+.div__projetos img{
+    margin: 5% 2% 0 2%;
+    
+    width: 35%;
+    transition: transform 0.5s;
+    box-shadow: 1px 1px 3px 3px white;
+}
+
+.div__projetos img:hover{
+    transform: scale(1.1);
+   
+}
+
